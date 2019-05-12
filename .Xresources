@@ -1,0 +1,11 @@
+URxvt.font: xft:noto-font:size=12
+URxvt.scrollBar: false
+
+! Removes weird ctl+shift+c/v command and replaces with copy/paste
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+URxvt.keysym.Shift-Control-V: eval:paste_clipboard
+URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
+
+! Translates home button to tilde
+URxvt.keysym.Home: ~
