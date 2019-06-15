@@ -6,3 +6,4 @@ keycode 45 = k K Down
 keycode 46 = l L Right
 
 keycode 43 = h H Home
+keycode 22 = BackSpace BackSpace Delete
