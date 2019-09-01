@@ -202,6 +202,7 @@ exec --no-startup-id wal -R
 exec --no-startup-id polybar main
 exec --no-startup-id xbindkeys
 exec --no-startup-id xmodmap ~/.Xmodmap
+exec --no-startup-id compton -b
 exec --no-startup-id nm-applet # systray for network manager
 exec --no-startup-id redshift
 exec --no-startup-id redshift-gtk # systray for redshift
