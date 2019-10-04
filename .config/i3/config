@@ -52,8 +52,8 @@ bindsym $mod+d exec rofi -show run
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # start ammications
-bindsym $mod+F2 exec firefox
-bindsym $mod+F3 exec firefox --new-window https://stackedit.io/app# 
+bindsym $mod+F2 exec chromium &
+bindsym $mod+F3 exec chromium --new-window --app=https://stackedit.io/app# & 
 
 # change focus
 bindsym $mod+j focus left
@@ -198,7 +198,7 @@ bindsym $mod+r mode "resize"
 #}
 
 # Autostart applications
-exec --no-startup-id wal -R
+exec --no-startup-id wal -Rn
 exec --no-startup-id polybar main
 exec --no-startup-id xbindkeys
 exec --no-startup-id xmodmap ~/.Xmodmap
