@@ -1,0 +1,7 @@
+#!/bin/bash
+
+killall -q polybar; sleep 1
+
+for m in $(echo $AUTORANDR_MONITORS | tr ":" "\n"); do
+	MONITOR=$m polybar --config=/home/kyle/.config/polybar/config main &
+done
